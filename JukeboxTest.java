@@ -6,6 +6,9 @@ import org.junit.Test;
 import music.artist.*;
 import snhu.jukebox.playlist.Song;
 
+String username = System.getenv("USERNAME");
+String password = System.getenv("PASSWORD");
+
 public class JukeboxTest {
 
 	@Test
