@@ -10,6 +10,12 @@ String username = System.getenv("USERNAME");
 String password = System.getenv("PASSWORD");
 
 public class JukeboxTest {
+	
+	private static final String VERIFICATION_EMAIL = "Chaerle13@gmail.com"
+	
+	@Test
+	public void testemailVerification() {
+		boolean emailSent = EmailVerifier.sendVerificationEmail
 
 	@Test
 	public void testGetBeatlesAlbumSize() throws NoSuchFieldException, SecurityException {
